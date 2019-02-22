@@ -1,0 +1,8 @@
+21-2-18:
+
+    QT application converter for web assembly.
+    Study on RIOT Messenger configuration.
+    
+ 22-2-18:
+ 
+    Qt installation on web assembly: (being achived)
