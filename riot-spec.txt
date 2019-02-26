@@ -1,0 +1,5 @@
+Riot Messenger platform specs & how to:
+
+    Riot runs on matrix server.
+    
+    
