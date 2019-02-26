@@ -1,2 +1,2 @@
 # worklog
-Details of tasks done by daily report.
+Details of tasks done on daily basis.
