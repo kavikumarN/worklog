@@ -31,6 +31,96 @@ failed::
 2nd link:
 
 http://qtandeverything.blogspot.com/2017/06/qt-for-web-assembly.html
+failed.
+
+link 3:
+
+http://qtandeverything.blogspot.com/
+
+
+
+Nov
+22
+Qt for WebAssembly update
+The project Qt 5 emscripten that Intopalo (who are doing tons of amazing stuff with some awesome talent) started as research for a client, has moved git repos. The new main git repo has been moved to a branch in Qt proper! and a new name - Qt for WebAssembly.
+
+git://code.qt.io/qt/qtbase.git in the 'wip/webassembly' branch, and can be downloaded here:
+git clone -b wip/webassembly git://code.qt.io/qt/qtbase.git
+
+which is also here at github:
+https://github.com/qt/qtbase/tree/wip/webassembly
+
+Along with the move comes expanded requirements, like targeting non QtWidgets based apps, including QtDeclarative.
+
+As well, it now builds only for wasm and does not bother with the asmjs fallback, This means your web browser will need to specifically support wasm. Pure wasm builds in emscripten have performance optimizations that do not happen when also building the asmjs fallback.
+
+That said....
+
+*NOTE* Qt for WebAssembly is still very alpha and buggy! Some of which I will cover in the next blog post.
+
+I have managed to conjole Qt Creator to use the emscripten built Qt for apps. Here are the steps to do so, if you are so inclined.
+
+Build Qt for web assembly.
+
+1) Download and build emsdk (you may also try to pre built binary version)
+
+git the emsdk source repo:
+git clone https://github.com/juj/emsdk.git
+(to update: git pull; ./emsdk update-tags )
+
+Follow these instructions to build emsdk:
+http://kripken.github.io/emscripten-site/docs/getting_started/downloads.html#installation-instructions
+
+I usually use 'incoming' instead of 'latest', as it has more recent features.
+
+/path/to/emsdk install sdk-master-64bit binaryen-master-64bit
+
+2) Download Qt for emsdk
+
+git clone -b wip/webassembly https://code.qt.io/qt/qtbase.git
+
+3) Build Qt
+
+source /path/to/emsdk/emsdk_env.sh
+
+$QT_DIR/configure -xplatform emscripten -confirm-license -opensource -nomake tests -nomake examples -developer-build -no-dbus -no-headersclean -release -no-thread  -no-feature-networkinterface
+
+(non developer builds should work too)
+
+4) Add emscripten compiler to Creator
+
+    Tools->Options->Build & Run -> Compilers->Add->Custom
+    add emcc as C, and emc++ as C++
+    'emscripten' as Qt mkspecs.
+    ABI: x86, linux (or whatever platform you build on), unknown, elf, 64bit
+
+
+5) Add emscripten built Qt
+
+    Tools->Options->Build & Run ->Qt Versions->Add
+        add the qmake from your emscripten Qt build.
+
+6) Add emscripten kit
+
+    Tools->Options->Build & Run ->Kits->Add
+        add emcc and emc++ as Compilers
+        If you use cmake, you can also add to CMake configuration:
+            CMAKE_TOOLCHAIN_FILE=/path/to/emsdk/emscripten/incoming/cmake/Modules/Platform/Emscripten.cmake
+
+7) Build your app
+
+    Use 'release' mode build, as 'debug' will result in a runtime error: "failed to asynchronously prepare wasm: CompileError: wasm validation error: at offset 14762: too many functions"
+
+8) Run your app
+
+    add custom executable: Projects->(qt5-wasm) Run
+        specify /path/to/emsdk/emscripten/incoming/emrun
+            arguments: .html
+                I also use --browser firefox (I use nightly)
+
+Hopefully some things will actually work! This is all still in the development phase. Your kilometerage will vary. 
+
+Good luck! You can join the fun, we are in #qt-webassembly at https://qtmob.slack.com and on freenode.
 
 
 
