@@ -1,0 +1,17 @@
+installing Qt for emscripten. Qt has integration support for emscripten.
+link: https://wiki.qt.io/Qt_for_WebAssembly#Getting_the_code
+
+git clone http://code.qt.io/cgit/qt/qt5.git/
+run init-repository // downloads support files
+./configure -xplatform wasm-emscripten -nomake examples -prefix $PWD/qtbase   
+//Configure Qt as a cross-compile build for the "wasm-emscripten" platform. This will implicitly set the "-static" and "-no-feature-thread" options.
+make module-qtbase module-qtdeclarative [other modules] 
+Building and running applications
+
+    /path/to/qmake && make
+
+Start a web server (e.g. "python -m SimpleHTTPServer"), open e.g. localhost:8000/appname.html in a web browser. We test on Chrome, Firefox, and Safari (all desktop). Firefox (nightly) currently has the most performant wasm compiler, and is recommended for dev work.
+You can also use:
+
+    /path/to/emscripten/emrun --browser=firefox appname.html
+
