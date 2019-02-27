@@ -25,5 +25,12 @@ WARNING: flex is required to build QtWebEngine.
 
 WARNING: host pkg-config not found
 
+failed::
+
+
+2nd link:
+
+http://qtandeverything.blogspot.com/2017/06/qt-for-web-assembly.html
+
 
 
