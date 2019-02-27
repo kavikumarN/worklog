@@ -14,4 +14,16 @@ Start a web server (e.g. "python -m SimpleHTTPServer"), open e.g. localhost:8000
 You can also use:
 
     /path/to/emscripten/emrun --browser=firefox appname.html
+   
+ dependencies to be installed:**************
+ 
+WARNING: gperf is required to build QtWebEngine.
+
+WARNING: bison is required to build QtWebEngine.
+
+WARNING: flex is required to build QtWebEngine.
+
+WARNING: host pkg-config not found
+
+
 
