@@ -121,6 +121,6 @@ $QT_DIR/configure -xplatform emscripten -confirm-license -opensource -nomake tes
 Hopefully some things will actually work! This is all still in the development phase. Your kilometerage will vary. 
 
 Good luck! You can join the fun, we are in #qt-webassembly at https://qtmob.slack.com and on freenode.
-
-
+#########################
+4th link: http://vps2.etotheipiplusone.com:30176/redmine/projects/emscripten-qt/wiki/
 
