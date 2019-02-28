@@ -1,0 +1,7 @@
+#steps to install emsdk/emasripten incoming tag from git. 
+
+git clone https://github.com/juj/emsdk.git
+./emsdk update-tags
+./emsdk install sdk-incoming-64bit binaryen-master-64bit
+./emsdk activate sdk-incoming-64bit binaryen-master-64bit
+source ./emsdk_env.sh
