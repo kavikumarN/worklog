@@ -7,11 +7,17 @@ make install
 
 
 1: complile static library: 
-emcc  -s WASM=1 -O3 -s EXPORT_ALL=1 -s NO_EXIT_RUNTIME=1 -o server1of2.o -I/home/mat/emsdk/emscripten/incoming/system/include  -s USE_PTHREADS=1 -s RUNTIME_LINKED_LIBS=-lrt -s SIDE_MODULE=1 libzmq.a 
+emcc  -s WASM=1 -O3 -s EXPORT_ALL=1 -s NO_EXIT_RUNTIME=1 -o libfile.o -I/home/mat/emsdk/emscripten/incoming/system/include  -s USE_PTHREADS=1 -s RUNTIME_LINKED_LIBS=-lrt ../system/lib/libzmq.a 
 
 2: compile code 
-emcc -c -s WASM=1 -O3 -s EXPORTED_FUNCTIONS="['_main','_zmq_socket','_zmq_bind','_zmq_send','_zmq_recv','_zmq_connect','_zmq_ctx_new','_zmq_ctx_destroy']" -s NO_EXIT_RUNTIME=1 -I/home/mat/emsdk/emscripten/incoming/system/include -s USE_PTHREADS=1 -s RUNTIME_LINKED_LIBS=-lrt hwserver.c -o server1of2.o
+emcc -c -s WASM=1 -O3 -s EXPORTED_FUNCTIONS="['_main','_zmq_socket','_zmq_bind','_zmq_send','_zmq_recv','_zmq_connect','_zmq_ctx_new','_zmq_ctx_destroy']" -s NO_EXIT_RUNTIME=1 -I/home/mat/emsdk/emscripten/incoming/system/include -s USE_PTHREADS=1 -s RUNTIME_LINKED_LIBS=-lrt hwserver.c -o sercode.o
 
 3. combine both:
 
- emcc -s WASM=1 -O3 -o finalserver.js server1of2.o server2of2.o -s NO_EXIT_RUNTIME=1 -s EXPORT_ALL=1 -s ERROR_ON_UNDEFINED_SYMBOLS=0
+ emcc -s WASM=1 -O3 -o finalserver.js sercode.o libfile.o -s NO_EXIT_RUNTIME=1 -s EXPORT_ALL=1 -s ERROR_ON_UNDEFINED_SYMBOLS=0
+
+
+
+
+
+emcc -c -s WASM=1 -O3 -s EXPORTED_FUNCTIONS="['_main','_zmq_socket','_zmq_bind','_zmq_send','_zmq_recv','_zmq_connect','_zmq_ctx_new','_zmq_ctx_destroy']" -s NO_EXIT_RUNTIME=1 -I/home/mat/emsdk/emscripten/incoming/system/include hwserver.c -o server2of2.o
