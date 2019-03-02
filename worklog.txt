@@ -6,3 +6,11 @@
  22-2-18:
  
     Qt installation on web assembly: (being achived)
+    
+    
+ 2mar:
+      installation of zeromq both static and dynamic has been tried with emscripten-incoming. it uses static libraries and another library called unity.a and rt lib. 
+    https://github.com/emscripten-core/emscripten/pull/7672
+    
+    
+    
