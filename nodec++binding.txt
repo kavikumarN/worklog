@@ -1,3 +1,4 @@
 node addon example:
 https://github.com/nodejs/node-addon-examples/blob/master/1_hello_world/node_0.12/package.json
 
+https://medium.com/netscape/javascript-c-modern-ways-to-use-c-in-javascript-projects-a19003c5a9ff
