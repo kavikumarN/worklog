@@ -1,0 +1,3 @@
+node addon example:
+https://github.com/nodejs/node-addon-examples/blob/master/1_hello_world/node_0.12/package.json
+
