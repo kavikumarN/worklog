@@ -1,0 +1,40 @@
+steps to run binding with c++ and node:
+
+install nan for cpp binding:
+
+npm install --save nan
+
+create json file:
+ 
+ npm init
+
+(optional) git ex: git clone https://github.com/nodejs/node-addon-examples.git
+
+
+install  node-gyp:
+
+npm install node-gyp -g
+
+
+configure node-gyp
+
+node-gyp configure
+
+
+build:
+
+node-gyp build
+
+
+rebuild :
+ node-gyp build
+
+install pkg:
+
+npm install
+
+run:
+node hello.js
+
+
+
