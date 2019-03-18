@@ -5,12 +5,74 @@
     
  22-2-18:
  
-    Qt installation on web assembly: (being achived)
+    Qt installation on web assembly: git://code.qt.io/qt/qtbase.git in the 'wip/webassembly' branch,
+    INstallation succeeded, due to installation over emscripten-master tag issue application has failed to initiate in browser environment.
+    
+    
+  23-2-18:
+  
+  Qt installation from the repository: https://github.com/qt/qtbase/tree/wip/webassembly to bind emscripten and zeromq together has failed to bind the above things together. Build failed with both master and incoming branches.
+  
+  log and links: https://github.com/kavikumarN/worklog/blob/master/Qt-emscripten.txt
+  
+  25-2-18:
+        
+        https://github.com/jonwoodring/emscripten-electron-boilerplate
+        
+        electron installation for emscripten build. electron transforms native code into web environment. 
+        
+        electron has both emscripten and zeromq support. 
+        
+        zeromq support is provided through https://www.npmjs.com/package/jerry-zeromq
+        
+    26-2-18:
+    
+        installation of debian 9.
+        
+        issue with VGA drivers since the VGA cord has adapter to dvi-1 port. It doesnt support full resolution of 1920x1080. 
+        
+        NVIDEA graphics andf opensource drivers failed to clear the issue.
+        
+     27-2-18
+        reinstallation of debian with 3rd party drivers from iso: https://caesar.ftp.acc.umu.se/debian-cd/current/amd64/iso-cd/debian-9.8.0-amd64-netinst.iso  
+        
+        cleared issue with vga drivers installting amd x64 drivers.
+        
+        and  following cmds: 
+        
+        cvt -r 1920 1080&&xrandr --newmode "1920x1080R"  138.50  1920 1968 2000 2080  1080 1083 1088 1111 +hsync -vsync&&xrandr --addmode VGA-1 1920x1080R&&xrandr --listactivemonitors
+
+
+
+   28-2-18
+   
+   
+            reinstallion of emscripten on debian environment, from incoming branch. 
+            
+            reinstallation of zeromq cpp binding. 
+            
+            build succeeded to create static library but test and example programs fails to run.
+            
+                
+                raised issue on zeromq github repo.
+                
+                
+                
+        
+           
+  
+  
+    
+ 
+ 
+ 
     
     
  2mar:
       installation of zeromq both static and dynamic has been tried with emscripten-incoming. it uses static libraries and another library called unity.a and rt lib. 
     https://github.com/emscripten-core/emscripten/pull/7672
+    
+ 
     
     
     
