@@ -187,9 +187,23 @@
             
    16-08-18 :
    
+            study on asynchronuous file writing on node js to update data from zmq server to json file.
             
-            RIOT matrix server installation ubuntu. tried with public matrix domain. 
+            RIOT matrix server installation . tried with public matrix domain. 
+            fails to run from localhost, ssl certificate issue occurs.
             
+    18-03-19:
+            
+            configuring  matrix server:
+            
+            under synapse virtual environment, user account creation fails to run. exception occurs at user registration. 
+            
+            tried with synapse normal environment for reinstallation of matrix server which raises  error on dependencies.
+            
+            
+
+   
+           
             
             
             
