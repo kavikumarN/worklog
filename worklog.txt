@@ -200,6 +200,11 @@
             
             tried with synapse normal environment for reinstallation of matrix server which raises  error on dependencies.
             
+   19-03-19
+   
+            matrix server has been installed through virtualenv. src link: https://github.com/matrix-org/synapse/blob/master/INSTALL.md
+            
+            
             
 
    
