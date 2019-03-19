@@ -202,7 +202,9 @@
             
    19-03-19
    
-            matrix server has been installed through virtualenv. src link: https://github.com/matrix-org/synapse/blob/master/INSTALL.md
+            matrix server has been installed through virtualenv. 
+            src link: https://github.com/matrix-org/synapse/blob/master/INSTALL.md
+            
             
             
             
