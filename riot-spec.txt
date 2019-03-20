@@ -1,6 +1,15 @@
+Start after booting machine:
+
+cd ~/synapse
+source env/bin/activate
+synctl start
+
+
+Reference:
+
 https://github.com/matrix-org/synapse/blob/master/INSTALL.md
 
-dependencies:
+Installation & dependencies:
 sudo apt-get install build-essential python3-dev libffi-dev \
                      python-pip python-setuptools sqlite3 \
                      libssl-dev python-virtualenv libjpeg-dev libxslt1-dev
