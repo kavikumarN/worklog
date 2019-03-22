@@ -32,6 +32,13 @@ curl "https://matrix.org/packages/debian/repo-key.asc" |
 sudo apt update
 sudo apt install matrix-synapse-py3
 
+(opt for 2nd time)
+
+sudo apt update
+sudo apt install matrix-synapse-py3
+
+
+
 upgrade(optional):
 
 source ~/synapse/env/bin/activate
