@@ -1,1 +1,9 @@
-key: tTBTEwrsjymEZeA1Z6bR9bz2hQ2t6j46
+to remove synapse:
+
+sudo apt-get remove synapse
+
+sudo apt-get remove --auto-remove synapse
+
+sudo apt-get purge synapse
+
+sudo apt-get purge --auto-remove synapse
