@@ -7,3 +7,10 @@ sudo apt-get remove --auto-remove synapse
 sudo apt-get purge synapse
 
 sudo apt-get purge --auto-remove synapse
+
+
+remove nginx:
+
+sudo apt-get remove nginx nginx-common
+
+sudo apt-get purge nginx nginx-common
