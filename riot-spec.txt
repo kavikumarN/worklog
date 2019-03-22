@@ -54,6 +54,8 @@ python -m synapse.app.homeserver \
     --generate-config \
     --report-stats=[yes|no]
 
+ python -m synapse.app.homeserver     --server-name 192.168.1.1     --config-path homeserver.yaml     --generate-config --report-stats=yes
+
 
 ** run home server:
 
