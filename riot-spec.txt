@@ -85,10 +85,14 @@ openssl req -x509 -out localhost.crt -keyout localhost.key \
   -subj '/CN=localhost' -extensions EXT -config <( \
    printf "[dn]\nCN=localhost\n[req]\ndistinguished_name = dn\n[EXT]\nsubjectAltName=DNS:localhost\nkeyUsage=digitalSignature\nextendedKeyUsage=serverAuth")
 
+ex1:
 openssl req -x509 -out 192.168.1.145.crt -keyout 192.168.1.145.key \
   -newkey rsa:2048 -nodes -sha256 \
   -subj '/CN=192.168.1.145' -extensions EXT -config <( \
    printf "[dn]\nCN=localhost\n[req]\ndistinguished_name = dn\n[EXT]\nsubjectAltName=DNS:192.168.1.145\nkeyUsage=digitalSignature\nextendedKeyUsage=serverAuth")
 
+
+ex2:
+openssl req -new -newkey rsa:4096 -x509 -sha256 -days 365 -nodes -out MyCertificate.crt -keyout MyKey.key
 
 
