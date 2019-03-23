@@ -79,4 +79,16 @@ Success!
 
 
 
+generate localhost key:
+openssl req -x509 -out localhost.crt -keyout localhost.key \
+  -newkey rsa:2048 -nodes -sha256 \
+  -subj '/CN=localhost' -extensions EXT -config <( \
+   printf "[dn]\nCN=localhost\n[req]\ndistinguished_name = dn\n[EXT]\nsubjectAltName=DNS:localhost\nkeyUsage=digitalSignature\nextendedKeyUsage=serverAuth")
+
+openssl req -x509 -out 192.168.1.145.crt -keyout 192.168.1.145.key \
+  -newkey rsa:2048 -nodes -sha256 \
+  -subj '/CN=192.168.1.145' -extensions EXT -config <( \
+   printf "[dn]\nCN=localhost\n[req]\ndistinguished_name = dn\n[EXT]\nsubjectAltName=DNS:192.168.1.145\nkeyUsage=digitalSignature\nextendedKeyUsage=serverAuth")
+
+
 
