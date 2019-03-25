@@ -2,4 +2,6 @@
 * To study on Best practices & std on db. 
 * study on mysql, postgre sql.
 
+Model: fxcm.com web based trading.
+
 mar25:
