@@ -14,3 +14,5 @@ mar25:
  
         https://github.com/intrinio/intrinio-realtime-web-sdk
 
+Study on nodejs has been started, observed over opensource nodejs projects , github repositories namely freecodecamp & Interinio for preparing chart and statitic capture through web api respectively.  The realtime / history data chart view using node, uses web sockets for 2 way communication.
+        
