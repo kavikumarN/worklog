@@ -1,0 +1,5 @@
+* To study on Angular,node,react & work on open source projects.
+* To study on Best practices & std on db. 
+* study on mysql, postgre sql.
+
+mar25:
