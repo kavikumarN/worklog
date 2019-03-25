@@ -5,3 +5,8 @@
 Model: fxcm.com web based trading.
 
 mar25:
+ 
+ ref: chart representaion of stocks:
+        https://github.com/scottwestover/freecodecamp-chart-the-stock-market
+
+
