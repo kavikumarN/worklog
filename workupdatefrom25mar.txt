@@ -7,6 +7,10 @@ Model: fxcm.com web based trading.
 mar25:
  
  ref: chart representaion of stocks:
-        https://github.com/scottwestover/freecodecamp-chart-the-stock-market
-
+ 
+       https://github.com/scottwestover/freecodecamp-chart-the-stock-market
+      
+ Intrinio Web SDK for Real-Time Stock, Forex, and Crypto Prices:
+ 
+        https://github.com/intrinio/intrinio-realtime-web-sdk
 
