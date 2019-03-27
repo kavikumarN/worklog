@@ -16,3 +16,8 @@ mar25:
 
 Study on nodejs has been started, observed over opensource nodejs projects , github repositories namely freecodecamp & Interinio for preparing chart and statitic capture through web api respectively.  The realtime / history data chart view using node, uses web sockets for 2 way communication.
         
+Mar27 2019:
+     
+      ref: bit coin price index:    https://github.com/MarkFChavez/bitcoin-price-index
+      
+      Studied on ReactJS, And its dependencies Babel, Dev-server. Usage of JSX files. 
