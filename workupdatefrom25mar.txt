@@ -26,4 +26,4 @@ Mar 28 :
 
      ref: https://www.youtube.com/watch?v=6nrwHiWN29o&index=13&list=PL4cUxeGkcC9ij8CfkAY2RAGb-tmkNwQHG
      
-     study on react/ redux mvc pattern, components, nested components, props,
+     study on react/ redux mvc pattern, components, nested components, props, con
