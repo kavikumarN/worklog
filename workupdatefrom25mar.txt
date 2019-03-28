@@ -21,3 +21,9 @@ Mar27 2019:
       ref: bit coin price index:    https://github.com/MarkFChavez/bitcoin-price-index
       
       Studied on ReactJS, And its dependencies Babel, Dev-server. Usage of JSX files. 
+      
+Mar 28 :
+
+     ref: https://www.youtube.com/watch?v=6nrwHiWN29o&index=13&list=PL4cUxeGkcC9ij8CfkAY2RAGb-tmkNwQHG
+     
+     study on react/ redux mvc pattern, components, nested components,  
