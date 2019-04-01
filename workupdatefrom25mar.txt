@@ -32,5 +32,11 @@ Mar 29:
     study on react/ redux provider components, mapping states,flux.
     Best practices on database design.
     refreshed on mysql.
+
+Mar 30: 
+    refered components and modules available on  open source react/redux project. https://github.com/MarkFChavez/bitcoin-price-index 
+    React JS/Redux: 
+    Study on components API, forms, routers.
+    Validation on props.
     
     
