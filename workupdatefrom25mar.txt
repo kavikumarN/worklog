@@ -39,4 +39,4 @@ Mar 30:
     Study on components API, forms, routers.
     Validation on props.
     
-    
+ fxcm api key: 74be6c0270e2932b63e337ed6de346791b7f3e6b
