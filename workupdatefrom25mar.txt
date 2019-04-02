@@ -40,3 +40,10 @@ Mar 30:
     Validation on props.
     
  fxcm api key: 74be6c0270e2932b63e337ed6de346791b7f3e6b
+ 
+ apr2:
+   referenced open source project on react: https://github.com/Francesco-Rizzi/React-ForEx-Trading-app.
+   observing above mentioned applicatrion to modify, remove run time exceptions. 
+   working on redux. 
+   study on redux-thunk module.
+   
