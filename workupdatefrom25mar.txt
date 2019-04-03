@@ -47,3 +47,8 @@ Mar 30:
    working on redux. 
    study on redux-thunk module.
    
+ Apr 3:
+    
+    Studied on Redux, routing, store, action, reducers, subscriptens.
+    React Props, Css, life cycle methods, forms.
+   
