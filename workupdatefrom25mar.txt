@@ -37,18 +37,30 @@ Mar 30:
     refered components and modules available on  open source react/redux project. https://github.com/MarkFChavez/bitcoin-price-index 
     React JS/Redux: 
     Study on components API, forms, routers.
-    Validation on props.
-    
- fxcm api key: 74be6c0270e2932b63e337ed6de346791b7f3e6b
+    Validation on props.    
+    fxcm api key: 74be6c0270e2932b63e337ed6de346791b7f3e6b
  
- apr2:
+ apr 1: 
+ 
+ study on ReactJs, Nodejs, postgres.
+  apr2:
    referenced open source project on react: https://github.com/Francesco-Rizzi/React-ForEx-Trading-app.
    observing above mentioned applicatrion to modify, remove run time exceptions. 
    working on redux. 
    study on redux-thunk module.
-   
+  
+ 
+
  Apr 3:
     
     Studied on Redux, routing, store, action, reducers, subscriptens.
     React Props, Css, life cycle methods, forms.
-   
+    
+    Apr 4: 
+Referenced open source project on NodeJS.
+    https://github.com/kievking/forex-trading-strategy
+    
+ apr 5: 
+   usage of  matrialize css: https://materializecss.com/
+   study on action creaters on redux. 
+   Started to work on building sample Application using react-redux.
