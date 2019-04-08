@@ -64,3 +64,6 @@ Referenced open source project on NodeJS.
    usage of  matrialize css: https://materializecss.com/
    study on action creaters on redux. 
    Started to work on building sample Application using react-redux.
+ 
+ Apr 8:
+    To Combine a NodeJS Back End with a ReactJS Front End App.
