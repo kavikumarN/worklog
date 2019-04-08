@@ -68,4 +68,4 @@ Referenced open source project on NodeJS.
  Apr 8:
     To Combine a NodeJS Back End with a ReactJS Front End App.
     configurering mongodb, https://www.digitalocean.com/community/tutorials/how-to-install-mongodb-on-debian-9.
-    
+    Working on Sample Application to retive data from Node using Mongodb &  Using React, Redux, and Immutable.js
