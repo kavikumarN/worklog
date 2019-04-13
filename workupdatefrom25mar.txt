@@ -69,3 +69,17 @@ Referenced open source project on NodeJS.
     To Combine a NodeJS Back End with a ReactJS Front End App.
     configurering mongodb, https://www.digitalocean.com/community/tutorials/how-to-install-mongodb-on-debian-9.
     Working on Sample Application to retive data from Node using Mongodb &  Using React, Redux, and Immutable.js
+    
+  Apr 9: 
+     Studied on DB Access node and mongo db.
+     sample application on data access using mongodb. 
+  
+  Apr 11: 
+      Refreshed on states, props,  Render component into the DOM.
+      tried to replicate an open source react project on github, and found that it has errors, worked on it to imitate the live application. https://github.com/Francesco-Rizzi/React-ForEx-Trading-app
+      
+ Apr 13: 
+ Studied on working with react bootstraps. 
+ https://react-bootstrap.github.io
+ Data Rendering through JSON files. 
+ continueing work on reference open source project : https://github.com/Francesco-Rizzi/React-ForEx-Trading-app
