@@ -83,3 +83,6 @@ Referenced open source project on NodeJS.
  https://react-bootstrap.github.io
  Data Rendering through JSON files. 
  continueing work on reference open source project : https://github.com/Francesco-Rizzi/React-ForEx-Trading-app
+ 
+ Apr 15: 
+ connect node express react: https://medium.freecodecamp.org/how-to-make-create-react-app-work-with-a-node-backend-api-7c5c48acb1b0
