@@ -87,4 +87,4 @@ Referenced open source project on NodeJS.
  Apr 15: 
  connect node express react: https://medium.freecodecamp.org/how-to-make-create-react-app-work-with-a-node-backend-api-7c5c48acb1b0
  reference: https://github.com/Joao-Henrique/React_Express_App_Medium_Tutorial/tree/master/client/src
- working on. react,node,express binding sample app.
+ working on sample app, Connecting the React Client to the Express API. 
