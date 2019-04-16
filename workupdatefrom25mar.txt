@@ -88,3 +88,9 @@ Referenced open source project on NodeJS.
  connect node express react: https://medium.freecodecamp.org/how-to-make-create-react-app-work-with-a-node-backend-api-7c5c48acb1b0
  reference: https://github.com/Joao-Henrique/React_Express_App_Medium_Tutorial/tree/master/client/src
  working on sample app, Connecting the React Client to the Express API. 
+
+apr 16: 
+    worked on sample app: react and express post,get api. 
+    Tried to post random values through get/post api, it works. 
+    trying  to Deploy on heroku, but failed.
+    
