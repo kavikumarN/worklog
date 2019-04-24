@@ -96,3 +96,5 @@ apr 16:
 
 apr 24: 
   using json api,express, node with react, sample app: https://medium.com/@maison.moa/create-a-simple-weather-app-using-node-js-express-and-react-54105094647a
+sir, 
+   Today worked on creating application for updating details from database to front end. Here i have used mongodb, react , node and express. I have used React Axios for Get/post requests. The data from db has updates using setInterval() of react. Yet to implement ZMQ PUB-SUB to the DB and fetch data to front end. 
