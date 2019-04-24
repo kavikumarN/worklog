@@ -93,4 +93,6 @@ apr 16:
     worked on sample app: react and express post,get api. 
     Tried to post random values through get/post api, it works. 
     trying  to Deploy on heroku, but failed.
-    
+
+apr 24: 
+  using json api,express, node with react, sample app: https://medium.com/@maison.moa/create-a-simple-weather-app-using-node-js-express-and-react-54105094647a
