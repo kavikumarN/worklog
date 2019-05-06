@@ -1,9 +1,19 @@
-may 2:
+work status update for april 29 to may 4:
 
+April 29:
+studied on signalR, and node alternatives to provide push services.
+
+may 2:
+worked on few push,pub-sub messaging queues.
+ 
 deepstream.io : https://deepstreamhub.com/tutorials/getting-started/react/
 pusher.: 
 primus.io: https://github.com/primus/primus
 faye: https://faye.jcoglan.com/
 
+may4: 
+worked on mysql and express to fetch values from db to react.
+studied on cors, the node module to pass values through get,post methods.
 
-Today worked on 
+may 6:
+worked on mysql, node ,express along with axios modules.
